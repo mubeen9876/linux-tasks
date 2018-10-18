@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Input username"
+read username
+echo "User ID: "
+ls | id -u ${username}
+echo "User Group ID: "
+ls  | id -G ${username}
+
+
